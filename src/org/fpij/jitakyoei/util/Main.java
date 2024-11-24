@@ -1,20 +1,20 @@
-package org.fpij.jitakyoei.util;
+package main.java.org.fpij.jitakyoei.util;
 
 import java.util.Date;
 
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.facade.AppFacadeImpl;
-import org.fpij.jitakyoei.model.beans.Endereco;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Filiado;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.model.dao.DAO;
-import org.fpij.jitakyoei.model.dao.DAOImpl;
-import org.fpij.jitakyoei.view.AppView;
-import org.fpij.jitakyoei.view.MainAppView;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.facade.AppFacadeImpl;
+import main.java.org.fpij.jitakyoei.model.beans.Endereco;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Filiado;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.model.dao.DAO;
+import main.java.org.fpij.jitakyoei.model.dao.DAOImpl;
+import main.java.org.fpij.jitakyoei.view.AppView;
+import main.java.org.fpij.jitakyoei.view.MainAppView;
 
 public class Main {
 	

@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import java.awt.Component;
 import java.awt.Dialog.ModalityType;
@@ -11,13 +11,13 @@ import net.java.dev.genesis.annotation.Action;
 import net.java.dev.genesis.annotation.Form;
 import net.java.dev.genesis.ui.swing.SwingBinder;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.util.CloseTabIcon;
-import org.fpij.jitakyoei.view.gui.MainAppFrame;
-import org.fpij.jitakyoei.view.gui.SobrePanel;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.util.CloseTabIcon;
+import main.java.org.fpij.jitakyoei.view.gui.MainAppFrame;
+import main.java.org.fpij.jitakyoei.view.gui.SobrePanel;
 
 @Form
 public class MainAppView implements AppView {

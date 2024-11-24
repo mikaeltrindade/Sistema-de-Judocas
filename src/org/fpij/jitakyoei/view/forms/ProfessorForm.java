@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view.forms;
+package main.java.org.fpij.jitakyoei.view.forms;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,10 +7,10 @@ import java.util.List;
 import javax.swing.JComboBox;
 import javax.swing.table.DefaultTableModel;
 
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.model.dao.DAOImpl;
-import org.fpij.jitakyoei.view.gui.ProfessorPanel;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.model.dao.DAOImpl;
+import main.java.org.fpij.jitakyoei.view.gui.ProfessorPanel;
 
 public class ProfessorForm {
 	private Professor professor;

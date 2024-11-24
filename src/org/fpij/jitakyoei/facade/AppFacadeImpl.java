@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.facade;
+package main.java.org.fpij.jitakyoei.facade;
 
 
 import java.util.ArrayList;
@@ -6,19 +6,19 @@ import java.util.List;
 
 import javax.swing.JOptionPane;
 
-import org.fpij.jitakyoei.business.AlunoBO;
-import org.fpij.jitakyoei.business.AlunoBOImpl;
-import org.fpij.jitakyoei.business.EntidadeBO;
-import org.fpij.jitakyoei.business.EntidadeBOImpl;
-import org.fpij.jitakyoei.business.ProfessorBO;
-import org.fpij.jitakyoei.business.ProfessorBOImpl;
-import org.fpij.jitakyoei.business.ProfessorEntidadeBO;
-import org.fpij.jitakyoei.business.ProfessorEntidadeBOImpl;
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.model.beans.ProfessorEntidade;
-import org.fpij.jitakyoei.view.AppView;
+import main.java.org.fpij.jitakyoei.business.AlunoBO;
+import main.java.org.fpij.jitakyoei.business.AlunoBOImpl;
+import main.java.org.fpij.jitakyoei.business.EntidadeBO;
+import main.java.org.fpij.jitakyoei.business.EntidadeBOImpl;
+import main.java.org.fpij.jitakyoei.business.ProfessorBO;
+import main.java.org.fpij.jitakyoei.business.ProfessorBOImpl;
+import main.java.org.fpij.jitakyoei.business.ProfessorEntidadeBO;
+import main.java.org.fpij.jitakyoei.business.ProfessorEntidadeBOImpl;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.model.beans.ProfessorEntidade;
+import main.java.org.fpij.jitakyoei.view.AppView;
 
 public class AppFacadeImpl implements AppFacade {
 	

@@ -1,8 +1,8 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import javax.swing.JPanel;
 
-import org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
 
 public interface ViewComponent {
 	public JPanel getGui();

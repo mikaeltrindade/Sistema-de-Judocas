@@ -1,8 +1,8 @@
-package org.fpij.jitakyoei.business;
+package main.java.org.fpij.jitakyoei.business;
 
 import java.util.List;
 
-import org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
 
 public interface EntidadeBO {
 	public void createEntidade(Entidade entidade) throws Exception;

@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -6,9 +6,9 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.view.forms.EntidadeForm;
-import org.fpij.jitakyoei.view.gui.EntidadeCadastrarPanel;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.view.forms.EntidadeForm;
+import main.java.org.fpij.jitakyoei.view.gui.EntidadeCadastrarPanel;
 
 public class EntidadeCadastrarView implements ViewComponent {
 

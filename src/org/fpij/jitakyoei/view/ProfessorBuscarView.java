@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -10,11 +10,11 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.model.beans.Filiado;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.view.forms.CamposBuscaForm;
-import org.fpij.jitakyoei.view.gui.ProfessorBuscarPanel;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.model.beans.Filiado;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.view.forms.CamposBuscaForm;
+import main.java.org.fpij.jitakyoei.view.gui.ProfessorBuscarPanel;
 
 public class ProfessorBuscarView implements ViewComponent{
 

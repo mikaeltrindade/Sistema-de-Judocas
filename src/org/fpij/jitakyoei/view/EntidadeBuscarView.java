@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,9 +9,9 @@ import java.util.List;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.view.gui.EntidadeBuscarPanel;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.view.gui.EntidadeBuscarPanel;
 
 public class EntidadeBuscarView implements ViewComponent {
 

@@ -2,7 +2,7 @@
  * Created by JFormDesigner on Tue Dec 08 14:00:22 GMT-03:00 2009
  */
 
-package org.fpij.jitakyoei.view.gui;
+package main.java.org.fpij.jitakyoei.view.gui;
 
 import javax.swing.JComboBox;
 import javax.swing.JLabel;

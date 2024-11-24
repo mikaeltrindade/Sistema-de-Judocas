@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -6,10 +6,10 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.view.forms.AlunoForm;
-import org.fpij.jitakyoei.view.gui.AlunoCadastrarPanel;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.view.forms.AlunoForm;
+import main.java.org.fpij.jitakyoei.view.gui.AlunoCadastrarPanel;
 
 public class AlunoCadastrarView implements ViewComponent {
 

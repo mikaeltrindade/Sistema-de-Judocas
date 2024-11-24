@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.util;
+package main.java.org.fpij.jitakyoei.util;
 
 import com.db4o.Db4o;
 import com.db4o.ObjectContainer;

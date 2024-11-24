@@ -1,12 +1,12 @@
-package org.fpij.jitakyoei.business;
+package main.java.org.fpij.jitakyoei.business;
 
 import java.util.List;
 
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.model.dao.DAO;
-import org.fpij.jitakyoei.model.dao.DAOImpl;
-import org.fpij.jitakyoei.util.FiliadoID;
-import org.fpij.jitakyoei.view.AppView;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.model.dao.DAO;
+import main.java.org.fpij.jitakyoei.model.dao.DAOImpl;
+import main.java.org.fpij.jitakyoei.util.FiliadoID;
+import main.java.org.fpij.jitakyoei.view.AppView;
 
 public class AlunoBOImpl implements AlunoBO {
 	private static DAO<Aluno> dao = new DAOImpl<Aluno>(Aluno.class);

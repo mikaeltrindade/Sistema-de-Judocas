@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view.forms;
+package main.java.org.fpij.jitakyoei.view.forms;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,10 +8,10 @@ import java.util.List;
 
 import javax.swing.table.DefaultTableModel;
 
-import org.fpij.jitakyoei.model.beans.Faixa;
-import org.fpij.jitakyoei.model.beans.Filiado;
-import org.fpij.jitakyoei.util.CorFaixa;
-import org.fpij.jitakyoei.view.gui.FiliadoPanel;
+import main.java.org.fpij.jitakyoei.model.beans.Faixa;
+import main.java.org.fpij.jitakyoei.model.beans.Filiado;
+import main.java.org.fpij.jitakyoei.util.CorFaixa;
+import main.java.org.fpij.jitakyoei.view.gui.FiliadoPanel;
 
 public class FiliadoForm {
 	private Filiado filiado;

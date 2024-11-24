@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.model.validator;
+package main.java.org.fpij.jitakyoei.model.validator;
 
 
 public interface Validator<E> {

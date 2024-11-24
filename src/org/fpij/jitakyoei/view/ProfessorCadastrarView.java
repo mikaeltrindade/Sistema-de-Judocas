@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,12 +8,12 @@ import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.fpij.jitakyoei.facade.AppFacade;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.model.beans.ProfessorEntidade;
-import org.fpij.jitakyoei.view.forms.ProfessorForm;
-import org.fpij.jitakyoei.view.gui.ProfessorCadastrarPanel;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.model.beans.ProfessorEntidade;
+import main.java.org.fpij.jitakyoei.view.forms.ProfessorForm;
+import main.java.org.fpij.jitakyoei.view.gui.ProfessorCadastrarPanel;
 
 public class ProfessorCadastrarView implements ViewComponent {
 	ProfessorCadastrarPanel gui;

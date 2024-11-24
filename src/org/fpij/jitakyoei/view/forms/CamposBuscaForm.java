@@ -1,6 +1,6 @@
-package org.fpij.jitakyoei.view.forms;
+package main.java.org.fpij.jitakyoei.view.forms;
 
-import org.fpij.jitakyoei.view.gui.BuscaCamposPanel;
+import main.java.org.fpij.jitakyoei.view.gui.BuscaCamposPanel;
 
 public class CamposBuscaForm {
 	private BuscaCamposPanel buscaCamposPanel;

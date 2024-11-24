@@ -1,7 +1,7 @@
-package org.fpij.jitakyoei.view.forms;
+package main.java.org.fpij.jitakyoei.view.forms;
 
-import org.fpij.jitakyoei.model.beans.Endereco;
-import org.fpij.jitakyoei.view.gui.EnderecoPanel;
+import main.java.org.fpij.jitakyoei.model.beans.Endereco;
+import main.java.org.fpij.jitakyoei.view.gui.EnderecoPanel;
 
 public class EnderecoForm {
 	private Endereco endereco;

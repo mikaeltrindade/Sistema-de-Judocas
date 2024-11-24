@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.util;
+package main.java.org.fpij.jitakyoei.util;
 
 import java.awt.Component;
 import java.awt.Graphics;

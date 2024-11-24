@@ -2,7 +2,7 @@
  * Created by JFormDesigner on Sun Dec 13 08:46:41 GMT-03:00 2009
  */
 
-package org.fpij.jitakyoei.view.gui;
+package main.java.org.fpij.jitakyoei.view.gui;
 
 import java.awt.BorderLayout;
 

@@ -2,7 +2,7 @@
  * Created by JFormDesigner on Tue Dec 08 21:33:28 GMT-03:00 2009
  */
 
-package org.fpij.jitakyoei.view.gui;
+package main.java.org.fpij.jitakyoei.view.gui;
 
 import java.awt.FlowLayout;
 import java.awt.Font;
@@ -18,8 +18,8 @@ import javax.swing.ListSelectionModel;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.view.AlunoBuscarView;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.view.AlunoBuscarView;
 
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;

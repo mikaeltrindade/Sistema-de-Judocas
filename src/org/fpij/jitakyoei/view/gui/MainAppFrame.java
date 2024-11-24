@@ -2,7 +2,7 @@
  * Created by JFormDesigner on Tue Dec 08 15:20:26 GMT-03:00 2009
  */
 
-package org.fpij.jitakyoei.view.gui;
+package main.java.org.fpij.jitakyoei.view.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
@@ -23,7 +23,7 @@ import javax.swing.WindowConstants;
 
 import net.java.dev.genesis.annotation.ViewHandler;
 
-import org.fpij.jitakyoei.util.DatabaseManager;
+import main.java.org.fpij.jitakyoei.util.DatabaseManager;
 
 /**
  * @author wansoul

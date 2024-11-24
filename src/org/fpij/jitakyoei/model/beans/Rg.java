@@ -1,4 +1,4 @@
-package org.fpij.jitakyoei.model.beans;
+package main.java.org.fpij.jitakyoei.model.beans;
 
 public class Rg {
 	String numero;

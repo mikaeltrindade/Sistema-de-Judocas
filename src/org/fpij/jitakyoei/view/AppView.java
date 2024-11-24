@@ -1,6 +1,6 @@
-package org.fpij.jitakyoei.view;
+package main.java.org.fpij.jitakyoei.view;
 
-import org.fpij.jitakyoei.facade.AppFacade;
+import main.java.org.fpij.jitakyoei.facade.AppFacade;
 
 public interface AppView {
 	public void handleModelChange(Object obj);

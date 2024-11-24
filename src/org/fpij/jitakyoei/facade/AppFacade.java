@@ -1,11 +1,11 @@
-package org.fpij.jitakyoei.facade;
+package main.java.org.fpij.jitakyoei.facade;
 
 import java.util.List;
 
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.model.beans.ProfessorEntidade;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.model.beans.ProfessorEntidade;
 
 public interface AppFacade {
 

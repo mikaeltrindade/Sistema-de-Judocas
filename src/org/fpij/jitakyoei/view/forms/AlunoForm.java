@@ -1,14 +1,14 @@
-package org.fpij.jitakyoei.view.forms;
+package main.java.org.fpij.jitakyoei.view.forms;
 
 import java.util.List;
 
 import javax.swing.JComboBox;
 
-import org.fpij.jitakyoei.model.beans.Aluno;
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.model.beans.Professor;
-import org.fpij.jitakyoei.model.dao.DAOImpl;
-import org.fpij.jitakyoei.view.gui.AlunoPanel;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.model.beans.Professor;
+import main.java.org.fpij.jitakyoei.model.dao.DAOImpl;
+import main.java.org.fpij.jitakyoei.view.gui.AlunoPanel;
 
 public class AlunoForm {
 	private Aluno aluno;

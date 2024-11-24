@@ -1,11 +1,11 @@
-package org.fpij.jitakyoei.business;
+package main.java.org.fpij.jitakyoei.business;
 
 import java.util.List;
 
-import org.fpij.jitakyoei.model.beans.ProfessorEntidade;
-import org.fpij.jitakyoei.model.dao.DAO;
-import org.fpij.jitakyoei.model.dao.DAOImpl;
-import org.fpij.jitakyoei.view.AppView;
+import main.java.org.fpij.jitakyoei.model.beans.ProfessorEntidade;
+import main.java.org.fpij.jitakyoei.model.dao.DAO;
+import main.java.org.fpij.jitakyoei.model.dao.DAOImpl;
+import main.java.org.fpij.jitakyoei.view.AppView;
 
 public class ProfessorEntidadeBOImpl implements ProfessorEntidadeBO {
 

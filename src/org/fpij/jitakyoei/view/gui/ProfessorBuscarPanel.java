@@ -2,7 +2,7 @@
  * Created by JFormDesigner on Tue Dec 08 21:49:54 GMT-03:00 2009
  */
 
-package org.fpij.jitakyoei.view.gui;
+package main.java.org.fpij.jitakyoei.view.gui;
 
 import java.awt.FlowLayout;
 import java.awt.Font;

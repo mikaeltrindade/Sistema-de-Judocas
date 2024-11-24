@@ -1,7 +1,7 @@
-package org.fpij.jitakyoei.view.forms;
+package main.java.org.fpij.jitakyoei.view.forms;
 
-import org.fpij.jitakyoei.model.beans.Entidade;
-import org.fpij.jitakyoei.view.gui.EntidadePanel;
+import main.java.org.fpij.jitakyoei.model.beans.Entidade;
+import main.java.org.fpij.jitakyoei.view.gui.EntidadePanel;
 
 public class EntidadeForm {
 	private Entidade entidade;

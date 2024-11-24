@@ -1,8 +1,8 @@
-package org.fpij.jitakyoei.business;
+package main.java.org.fpij.jitakyoei.business;
 
 import java.util.List;
 
-import org.fpij.jitakyoei.model.beans.Aluno;
+import main.java.org.fpij.jitakyoei.model.beans.Aluno;
 
 public interface AlunoBO {
 	public void createAluno(Aluno aluno) throws Exception;
