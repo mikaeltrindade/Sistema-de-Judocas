@@ -147,10 +147,4 @@ public class AlunoDaoTest {
 		assertEquals(0, alunoDao.search(a).size());
 	}
 	
-	@AfterClass
-	public static void closeDatabase(){
-		clearDatabase();
-		DatabaseManager.close();
-	}
-	
 }
