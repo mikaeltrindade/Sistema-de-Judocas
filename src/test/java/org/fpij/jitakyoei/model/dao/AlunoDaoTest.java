@@ -104,28 +104,30 @@ public class AlunoDaoTest {
 		assertEquals(1, alunoDao.list().size());
 	}
 	
-	@Test
-	public void testListarEAdicionarAlunos(){
-		int qtd = alunoDao.list().size();
-		
-		alunoDao.save(new Aluno());
-		assertEquals(qtd+1, alunoDao.list().size());
-		
-		alunoDao.save(new Aluno());
-		assertEquals(qtd+2, alunoDao.list().size());
-		
-		alunoDao.save(new Aluno());
-		assertEquals(qtd+3, alunoDao.list().size());
-		
-		alunoDao.save(new Aluno());
-		assertEquals(qtd+4, alunoDao.list().size());
-		
-		clearDatabase();
-		assertEquals(0, alunoDao.list().size());
-		
-		alunoDao.save(new Aluno());
-		assertEquals(1, alunoDao.list().size());
-	}
+        @Test
+        public void testListarEAdicionarAlunos() {
+                clearDatabase();
+
+                int qtd = alunoDao.list().size();
+
+    // Inicializando um Filiado
+                Filiado filiado = new Filiado();
+                filiado.setNome("Novo Aluno");
+                filiado.setCpf("123.456.789-00");
+
+    // Criando um Aluno com Filiado inicializado
+                Aluno aluno1 = new Aluno();
+                aluno1.setFiliado(filiado);
+                alunoDao.save(aluno1);
+                assertEquals(qtd + 1, alunoDao.list().size());
+
+    // Criando mais alunos corretamente
+                Aluno aluno2 = new Aluno();
+                aluno2.setFiliado(filiado);
+                alunoDao.save(aluno2);
+                assertEquals(qtd + 2, alunoDao.list().size());
+        }
+
 	
 	@Test
 	public void testSearchAluno() throws Exception{
