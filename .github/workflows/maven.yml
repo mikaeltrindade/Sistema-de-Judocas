@@ -35,7 +35,7 @@ jobs:
 
       # Gerar o badge de cobertura de testes com JaCoCo
       - name: Generate JaCoCo Coverage Badge
-        uses: cicirello/jacoco-badge-generator@v3
+        uses: cicirello/jacoco-badge-generator@v2
         with:
           jacoco-csv-file: target/site/jacoco/jacoco.csv
           badges-directory: coverage
@@ -47,7 +47,3 @@ jobs:
         with:
           name: jacoco-report
           path: target/site/jacoco
-
-      # (Opcional) Submeter o gráfico de dependências para melhorar alertas do Dependabot
-      - name: Update dependency graph
-        uses: advanced-security/maven-dependency-submission-action@v1
