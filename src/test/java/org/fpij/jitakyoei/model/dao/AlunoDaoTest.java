@@ -1,6 +1,9 @@
 package org.fpij.jitakyoei.model.dao;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertNotNull;
+
 
 import java.util.Date;
 import java.util.List;
@@ -146,5 +149,32 @@ public class AlunoDaoTest {
 		clearDatabase();
 		assertEquals(0, alunoDao.search(a).size());
 	}
+        
+        @Test
+public void testCriarERecuperarAluno() throws Exception {
+    clearDatabase();  // Limpa o banco de dados antes do teste
+
+    // Criando um novo aluno
+    Filiado filiado = new Filiado();
+    filiado.setNome("Carlos Souza");
+    filiado.setCpf("333.444.555-66");
+
+    Aluno aluno = new Aluno();
+    aluno.setFiliado(filiado);
+
+    // Salvando o aluno no banco de dados
+    alunoDao.save(aluno);
+
+    // Recuperando o aluno do banco de dados
+    Aluno alunoRecuperado = alunoDao.get(aluno);
+
+    // Verificando se o aluno foi salvo corretamente
+    assertNotNull("O aluno não foi salvo corretamente", alunoRecuperado);
+    assertEquals("O nome do aluno não coincide", "Carlos Souza", alunoRecuperado.getFiliado().getNome());
+    assertEquals("O CPF do aluno não coincide", "333.444.555-66", alunoRecuperado.getFiliado().getCpf());
+}
+
+        
+        
 	
 }
