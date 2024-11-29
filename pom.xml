@@ -150,6 +150,36 @@
             <type>jar</type>
         </dependency>
     </dependencies>
+    <build>
+    <plugins>
+        <!-- Plugin do JaCoCo -->
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.8</version> <!-- Última versão estável -->
+            <executions>
+                <!-- Ativar o agente JaCoCo durante os testes -->
+                <execution>
+                    <id>default-prepare-agent</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <!-- Gerar relatórios durante a fase de 'verify' -->
+                <execution>
+                    <id>default-report</id>
+                    <phase>verify</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+
+    
+    
 
 
 </project>
