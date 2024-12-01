@@ -167,4 +167,33 @@ public void testAddMultipleEntidades() {
     assertTrue(entidades.contains(entidade2));
 }
 
+@Test
+public void testDeleteEntidadeByName() {
+    clearDatabase(); // Limpa o banco de dados antes de iniciar
+
+    // Adicionar a entidade
+    entidadeDao.save(entidade);
+    
+    // Verificar que a entidade foi salva corretamente
+    assertEquals(1, entidadeDao.list().size());
+    
+    // Excluir a entidade pelo nome
+    entidadeDao.delete(entidade);
+
+    // Verificar se a entidade foi removida
+    List<Entidade> entidades = entidadeDao.list();
+    assertEquals(0, entidades.size());
+
+    // Tentar buscar a entidade pelo nome
+    Entidade searchCriteria = new Entidade();
+    searchCriteria.setNome("Academia 1");
+
+    List<Entidade> result = entidadeDao.search(searchCriteria);
+
+    // Verificar que a busca não encontrou a entidade excluída
+    assertTrue("A entidade foi removida, mas ainda está na busca", result.isEmpty());
+}
+
+
+
 }
